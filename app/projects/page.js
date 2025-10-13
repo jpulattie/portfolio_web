@@ -1,0 +1,58 @@
+import Image from "next/image";
+import Link from "next/link";
+import Footer from "../footer"
+
+
+export default function Projects() {
+  return (
+    <div className="font-sans flex flex-col items-center h-[80vh]">
+
+
+
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(400px,1fr))] w-full gap-1 overflow-y-scroll h-full scrollbar ">
+
+
+
+        <div className="flex flex-col items-center text-center bg-black rounded-2xl p-4 m-4">
+          <a
+              href="https://ntxdevils.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative group block w-fit"
+            ><h2 className="p-2 hover:bg-white hover:text-black rounded-2xl">NTX Devils Footy Website</h2></a>
+          <div className="flex flex-col items-center pt-2">
+            <a
+              href="https://ntxdevils.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative group block w-fit"
+            ><Image
+                className=" flex justify-center items-center rounded-xl"
+                src="/footy.png"
+                alt="Next.js logo"
+                width={270}
+                height={57}
+                priority
+              />
+              <span className="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold opacity-0 group-hover:opacity-100 transition bg-black/50 rounded-lg">
+                <i>Visit</i>
+              </span>
+            </a>
+            <p className="pt-4 text-center">Developed a dynamic sports club management platform that enables administrators of any technical
+              background to easily update their club website. Built with Next.js, JavaScript, Tailwind CSS, a normalized MySQL database, and Amazon S3
+              for media storage. It features an intuitive admin dashboard for managing teams, rosters, schedules, sponsors, announcements, and
+              club information.  </p>
+          </div>
+        </div>
+        <div className="flex flex-col items-center bg-black rounded-2xl p-4 m-4">
+          <h2>NTX Devils Footy Website</h2>
+        </div>
+        <div className="flex flex-col items-center bg-black rounded-2xl p-4 m-4">
+          <h2>NTX Devils Footy Website</h2>
+        </div>
+      </div>
+
+
+    </div>
+  );
+}
