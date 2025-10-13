@@ -15,11 +15,11 @@ export default function Projects() {
 
         <div className="flex flex-col items-center text-center bg-black rounded-2xl p-4 m-4">
           <a
-              href="https://ntxdevils.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative group block w-fit"
-            ><h2 className="p-2 hover:bg-white hover:text-black rounded-2xl">NTX Devils Footy Website</h2></a>
+            href="https://ntxdevils.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative group block w-fit"
+          ><h2 className="p-2 hover:bg-white hover:text-black rounded-2xl">NTX Devils Footy Website</h2></a>
           <div className="flex flex-col items-center pt-2">
             <a
               href="https://ntxdevils.com"
@@ -29,7 +29,7 @@ export default function Projects() {
             ><Image
                 className=" flex justify-center items-center rounded-xl"
                 src="/footy.png"
-                alt="Next.js logo"
+                alt="NTX Devils website"
                 width={270}
                 height={57}
                 priority
@@ -42,13 +42,73 @@ export default function Projects() {
               background to easily update their club website. Built with Next.js, JavaScript, Tailwind CSS, a normalized MySQL database, and Amazon S3
               for media storage. It features an intuitive admin dashboard for managing teams, rosters, schedules, sponsors, announcements, and
               club information.  </p>
+            <a
+              href="https://github.com/jpulattie/ntxdevils"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center block w-fit"
+            >
+              <Image
+                className=" flex justify-center items-center rounded-xl"
+                src="/github-mark-white.png"
+                alt="github logo"
+                width={23}
+                height={22.5}
+                priority
+              />
+              <span className="p-2 hover:bg-white hover:text-black rounded-2xl"><i>github.com/jpulattie/ntxdevils</i></span>
+            </a>
+          </div>
+        </div>
+
+
+        <div className="flex flex-col items-center text-center bg-black rounded-2xl p-4 m-4 ">
+          <a
+            href="/LittleBeaver.apk"
+            download              
+            className="relative group block w-fit"
+          ><h2 className="p-2 hover:bg-white hover:text-black rounded-2xl">Baby Tracker Android App</h2></a>
+          <div className="flex flex-col items-center pt-2 ">
+            <a
+              href="/LittleBeaver.apk"
+              download              
+              className="relative group block w-fit"
+            ><Image
+                className=" flex justify-center items-center rounded-xl"
+                src="/tracker.jpg"
+                alt="Little Beaver Tracker APK download"
+                width={95}
+                height={57}
+                priority
+              />
+              <span className="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold opacity-0 group-hover:opacity-100 transition bg-black/50 rounded-lg">
+                <i>Visit</i>
+              </span>
+            </a>
+            <p className="pt-4 text-center">Developed a baby activity tracking android application for new parents to log the activities of their children like sleep, medications, and diapers. 
+              My role in this project was the speech-to-text integration and text-to-speech functionality, allowing users to say "Hey Benny... log 20 minute nap" for their child.  This application
+              was built using Kotlin, Jetpack Compose, Firebase, and android's speech recognizer.
+               </p>
+            <a
+              href="https://github.com/njbrunette/467capstone/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center block w-fit"
+            >
+              <Image
+                className=" flex justify-center items-center rounded-xl"
+                src="/github-mark-white.png"
+                alt="github logo"
+                width={23}
+                height={22.5}
+                priority
+              />
+              <span className="p-2 hover:bg-white hover:text-black rounded-2xl"><i>https://github.com/njbrunette/467capstone/</i></span>
+            </a>
           </div>
         </div>
         <div className="flex flex-col items-center bg-black rounded-2xl p-4 m-4">
-          <h2>NTX Devils Footy Website</h2>
-        </div>
-        <div className="flex flex-col items-center bg-black rounded-2xl p-4 m-4">
-          <h2>NTX Devils Footy Website</h2>
+          <h2>Placeholder for Lights in the Heights</h2>
         </div>
       </div>
 
