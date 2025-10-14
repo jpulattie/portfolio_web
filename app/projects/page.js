@@ -87,7 +87,7 @@ export default function Projects() {
             </a>
             <p className="pt-4 text-center">Developed a baby activity tracking android application for new parents to log the activities of their children like sleep, medications, and diapers. 
               My role in this project was the speech-to-text integration and text-to-speech functionality, allowing users to say &quot;Hey Benny... log a 20 minute nap&quot; for their child.  This application
-              was built using Kotlin, Jetpack Compose, Firebase, and android&apos;s speech recognizer.
+              was built using Kotlin, Jetpack Compose, Firebase, and Android&apos;s speech recognizer.
                </p>
             <a
               href="https://github.com/njbrunette/467capstone/"
