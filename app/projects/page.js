@@ -9,7 +9,7 @@ export default function Projects() {
 
 
 
-      <div className="grid grid-cols-[repeat(auto-fill,minmax(400px,1fr))] w-full gap-1 overflow-y-scroll h-full scrollbar ">
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(400px,1fr))] w-full gap-1 overflow-y-scroll h-full scrollbar justify-items-center ">
 
 
 
@@ -19,7 +19,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
             className="relative group block w-fit"
-          ><h2 className="p-2 hover:bg-white hover:text-black rounded-2xl">NTX Devils Footy Website</h2></a>
+          ><h2 className="p-2 hover:bg-white hover:text-black rounded-2xl"><strong>NTX Devils Footy Website</strong></h2></a>
           <div className="flex flex-col items-center pt-2">
             <a
               href="https://ntxdevils.com"
@@ -46,7 +46,7 @@ export default function Projects() {
               href="https://github.com/jpulattie/ntxdevils"
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center block w-fit"
+              className="group inline-flex items-center block w-fit pt-[10%]"
             >
               <Image
                 className=" flex justify-center items-center rounded-xl"
@@ -56,7 +56,7 @@ export default function Projects() {
                 height={22.5}
                 priority
               />
-              <span className="p-2 hover:bg-white hover:text-black rounded-2xl"><i>github.com/jpulattie/ntxdevils</i></span>
+              <span className="p-2 hover:bg-white hover:text-black rounded-2xl "><i>github.com/jpulattie/ntxdevils</i></span>
             </a>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function Projects() {
             href="/LittleBeaver.apk"
             download              
             className="relative group block w-fit"
-          ><h2 className="p-2 hover:bg-white hover:text-black rounded-2xl">Baby Tracker Android App</h2></a>
+          ><h2 className="p-2 hover:bg-white hover:text-black rounded-2xl"><strong>Baby Tracker Android App</strong></h2></a>
           <div className="flex flex-col items-center pt-2 ">
             <a
               href="/LittleBeaver.apk"
@@ -82,18 +82,18 @@ export default function Projects() {
                 priority
               />
               <span className="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold opacity-0 group-hover:opacity-100 transition bg-black/50 rounded-lg">
-                <i>Visit</i>
+                <i>Download</i>
               </span>
             </a>
             <p className="pt-4 text-center">Developed a baby activity tracking android application for new parents to log the activities of their children like sleep, medications, and diapers. 
-              My role in this project was the speech-to-text integration and text-to-speech functionality, allowing users to say "Hey Benny... log 20 minute nap" for their child.  This application
+              My role in this project was the speech-to-text integration and text-to-speech functionality, allowing users to say "Hey Benny... log a 20 minute nap" for their child.  This application
               was built using Kotlin, Jetpack Compose, Firebase, and android's speech recognizer.
                </p>
             <a
               href="https://github.com/njbrunette/467capstone/"
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center block w-fit"
+              className="group inline-flex items-center block w-fit pt-[10%]"
             >
               <Image
                 className=" flex justify-center items-center rounded-xl"
@@ -103,12 +103,57 @@ export default function Projects() {
                 height={22.5}
                 priority
               />
-              <span className="p-2 hover:bg-white hover:text-black rounded-2xl"><i>https://github.com/njbrunette/467capstone/</i></span>
+              <span className="p-2 hover:bg-white hover:text-black rounded-2xl "><i>https://github.com/njbrunette/467capstone/</i></span>
             </a>
           </div>
         </div>
-        <div className="flex flex-col items-center bg-black rounded-2xl p-4 m-4">
-          <h2>Placeholder for Lights in the Heights</h2>
+        <div className="flex  flex-col items-center text-center bg-black rounded-2xl p-4 m-4 ">
+          <a
+            href="https://lightsintheheights.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative group block w-fit"
+          ><h2 className="p-2 hover:bg-white hover:text-black rounded-2xl"><strong>Lights in the Heights</strong></h2></a>
+          <div className="flex flex-col items-center pt-2 ">
+            <a
+              href="https://lightsintheheights.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative group block w-fit"
+            ><Image
+                className=" flex justify-center items-center rounded-xl"
+                src="/lightsintheheights.png"
+                alt="Lights in the Heights website image"
+                width={254}
+                height={57}
+                priority
+              />
+              <span className="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold opacity-0 group-hover:opacity-100 transition bg-black/50 rounded-lg">
+                <i>Visit</i>
+              </span>
+            </a>
+            <p className="pt-4 text-center">Developed a simple website for Lights in the Heights, a holiday lighting business, that was built with Next.js, JavaScript, Tailwind CSS,
+              and nodemailer for a contact form. This websites serves as a landing page for my business and is used primarily to provide contact information and allow new clients to request a quote
+               </p>
+              
+            <a
+              href="https://github.com/njbrunette/467capstone/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center block w-fit pt-[10%]"
+            >
+              <Image
+                className=" flex justify-center items-center rounded-xl"
+                src="/github-mark-white.png"
+                alt="github logo"
+                width={23}
+                height={22.5}
+                priority
+              />
+              <span className="p-2 hover:bg-white hover:text-black rounded-2xl"><i>https://github.com/jpulattie/lights_in_the_heights</i></span>
+            </a>
+            
+          </div>
         </div>
       </div>
 
