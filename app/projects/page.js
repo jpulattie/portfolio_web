@@ -61,6 +61,55 @@ export default function Projects() {
           </div>
         </div>
 
+        <div className="flex flex-col items-center text-center bg-black rounded-2xl p-4 m-4">
+          
+          <h2 className="p-2 rounded-2xl"><strong>Student Athlete Availability App</strong></h2>
+          <div className="flex flex-col items-center pt-2">
+            <a
+              href="https://expo.dev/artifacts/eas/xc9Not5svhVPUvTwvoiEAN.apk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative group block w-fit"
+            ><Image
+                className=" flex justify-center items-center rounded-xl"
+                src="/saa_app.jpg"
+                alt="SAA App"
+                width={105}
+                height={57}
+                priority
+              />
+              <span className="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold opacity-0 group-hover:opacity-100 transition bg-black/50 rounded-lg">
+                <i>Download APK</i>
+              </span>
+            </a>
+            <p className="pt-4 text-center">Developed a React Native mobile app for Android and iOS to compile and display Student
+              Athlete Availability reports. The app uses a Python AWS Lambda function with an API end point to gather, parse, and
+              compile the reports into JSON and display using React Native with Expo and Typescript.</p>
+              <p className="pt-4 text-center"><strong>Android:</strong> Download and install the APK below. Permission to install outside of the 
+                Google Play Store may need to be granted. (The link below routes to expo.dev)
+              </p>
+            <a
+              href="https://expo.dev/artifacts/eas/xc9Not5svhVPUvTwvoiEAN.apk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center block w-fit "
+            >
+              <span className="p-2 hover:bg-white text-black rounded-2xl bg-[#aaaaaa] mt-2"><i>APK Download</i></span>
+            </a>
+            <p className="pt-4 text-center"><strong>iPhone:</strong> Download and install the Expo Go app from the App Store. After the Expo Go app
+              is installed, click the link below to open the SAA app in Expo Go (link must be opened on a mobile phone with Expo Go or the url will not work)
+              </p>
+            <a
+              href="exp+://expo-development-client/?url=https://u.expo.dev/cedde30c-042a-455a-b1fa-8273c4b08b10/group/67de3a4d-dd52-4a7c-9a31-fb61253438db"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center block w-fit "
+            >
+              <span className="p-2 hover:bg-white text-black rounded-2xl bg-[#aaaaaa] mt-2"><i>iOS Expo Go Link</i></span>
+            </a>
+
+          </div>
+        </div>
 
         <div className="flex flex-col items-center text-center bg-black rounded-2xl p-4 m-4 ">
           <a
