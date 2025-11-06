@@ -72,7 +72,7 @@ export default function Projects() {
               className="relative group block w-fit"
             ><Image
                 className=" flex justify-center items-center rounded-xl"
-                src="/saa_app.jpg"
+                src="/SAA_app.jpg"
                 alt="SAA App"
                 width={105}
                 height={57}
