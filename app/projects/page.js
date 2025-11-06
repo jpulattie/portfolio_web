@@ -101,7 +101,6 @@ export default function Projects() {
               </p>
             <a
               href="exp://u.expo.dev/cedde30c-042a-455a-b1fa-8273c4b08b10?channel-name=main"
-              target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center block w-fit "
             >
