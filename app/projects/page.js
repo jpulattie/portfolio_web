@@ -100,7 +100,7 @@ export default function Projects() {
               is installed, click the link below to open the SAA app in Expo Go (link must be opened on a mobile phone with Expo Go or the url will not work)
               </p>
             <a
-              href="exp+://expo-development-client/?url=https://u.expo.dev/cedde30c-042a-455a-b1fa-8273c4b08b10/group/67de3a4d-dd52-4a7c-9a31-fb61253438db"
+              href="exp://u.expo.dev/cedde30c-042a-455a-b1fa-8273c4b08b10/group/67de3a4d-dd52-4a7c-9a31-fb61253438db"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center block w-fit "
