@@ -89,7 +89,7 @@ export default function Projects() {
               Google Play Store may need to be granted. (The link below routes to expo.dev)
             </p>
             <a
-              href="https://expo.dev/artifacts/eas/xc9Not5svhVPUvTwvoiEAN.apk"
+              href="https://expo.dev/artifacts/eas/sUG1S1K8htEbizPHSGoT5y.apk"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center block w-fit "
