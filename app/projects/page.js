@@ -66,7 +66,7 @@ export default function Projects() {
           <h2 className="p-2 rounded-2xl"><strong>Student Athlete Availability App</strong></h2>
           <div className="flex flex-col items-center pt-2">
             <a
-              href="https://expo.dev/artifacts/eas/xc9Not5svhVPUvTwvoiEAN.apk"
+              href="https://expo.dev/artifacts/eas/sUG1S1K8htEbizPHSGoT5y.apk"
               target="_blank"
               rel="noopener noreferrer"
               className="relative group block w-fit"
